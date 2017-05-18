@@ -1,0 +1,9 @@
+name: express_test
+description: test
+version: 0.0.1
+
+environment:
+  sdk: ^1.23.0
+
+dependencies:
+  express: 0.1.6
