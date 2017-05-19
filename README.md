@@ -2,6 +2,13 @@
 Example of using express_dart, angular2_dart, and mongo_dart to create a MEAN 
 stack app fulling in dart.
 
+To run the express server, run `app.dart` in the `bin/` folder:
+```bash
+dart bin/app.dart
+[2017-05-18 22:50:36.788524] listening on http://127.0.0.1:8000
+```
+Then navigate to `http://localhost:8000` in a browser.
+
 ## Project Structure
 All server code is located in the `bin/` folder. All client code is located in
 the `public/` folder. 
