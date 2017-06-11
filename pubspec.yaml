@@ -7,3 +7,4 @@ environment:
 
 dependencies:
   express: 0.1.6
+  mongo_dart: ^0.2.10
