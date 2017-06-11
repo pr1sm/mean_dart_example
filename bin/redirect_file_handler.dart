@@ -18,7 +18,6 @@ class RedirectFileHandler extends Module {
     String path = (atPath ?? '.') + ctx.req.uri.path;
 
     logDebug('serving $path, $defaultPath as backup');
-    print('serving $path, $defaultPath as backup');
 
     File file = new File(path);
     File backup = new File(defaultPath);
